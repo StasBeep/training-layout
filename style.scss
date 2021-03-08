@@ -1,0 +1,593 @@
+*{
+    margin: 0;
+    padding: 0;   
+   }
+   body{
+       font-family: sans-serif;
+   }
+   
+   .paragraph{
+       font-size: 16px;
+       line-height: 26px;
+       letter-spacing: 0.05em;
+       opacity: 0.6;
+       color: #1f3f68;
+   }
+   .paragraphcolor{
+       font-size: 16px;
+       line-height: 26px;
+       letter-spacing: 0.05em;
+       opacity: 0.6;
+       color: #FFFFFF;
+       padding-bottom: 96px;
+   }
+   .paragraphunder{
+       font-size: 16px;
+       line-height: 26px;
+       text-align: center;
+       letter-spacing: 0.05em;
+       color: #222222;
+       width: 75%;
+       margin: 0 auto;
+       margin-bottom: 64px;
+   }
+   
+   .project_img{
+       position: relative;
+       flex-grow: 1;
+   }
+   
+   .projectimage{
+       width: 100%;
+   }
+   
+   .mrimage{
+       margin-right: 32px;
+   }
+   
+   .mbinfooter{
+       padding-bottom: 112px;
+   }
+   
+   .project_text{
+       font-size: 32px;
+       line-height: 46px;
+       text-align: right;
+       letter-spacing: 0.05em;
+       color: #FFFFFF;
+       position: absolute;
+       top: 64px;
+       right: 64px;
+   }
+   
+   .project_text2{
+       font-size: 32px;
+       line-height: 46px;
+       text-align: right;
+       letter-spacing: 0.05em;
+       color: #FFFFFF;
+       position: absolute;
+       top: 32px;
+       left: 32px;
+   }
+   
+   .project_parent{
+       display: flex;
+       margin-top: 32px;
+   }
+   
+   .paint{
+       background: #316099;
+       padding-left: 113px;
+       padding-right: 113px;
+   }
+   
+   .titleone{
+       width: 510px;
+       font-weight: 300;
+       font-size: 64px;
+       line-height: 74px;
+       letter-spacing: 0.04em;
+       color:#1f3f68;
+   }
+   .titletwocon{
+       font-weight: 500;
+       font-size: 44px;
+       text-align: center;
+       line-height: 74px;
+       letter-spacing: 0.04em;
+       color: #FFFFFF;
+       padding-bottom: 16px;
+   }
+   
+   .titlethree{
+       font-size: 36px;
+       text-align: center;
+       font-weight: 300;
+       line-height: 46px;
+       letter-spacing: 0.05em;
+       color: #000000;
+   }
+   
+   .titlefour{
+       font-size: 20px;
+       line-height: 30px;
+       letter-spacing: 0.05em;
+       color:#1f3f68;
+       margin-bottom: 14px;
+   }
+   
+   .stylesave{
+       font-weight: 500;
+       letter-spacing: 0.04em;
+       margin-bottom: 24px;
+   }
+   
+   .stinp{
+       border: 1px solid #356EAD;
+       box-sizing: border-box;
+       border-radius: 10 px;
+       opacity: 0.4;
+   }
+   
+   .expand{
+       padding: 21px 285px 21px 36px;
+   }
+   
+   .expandmess{
+       padding: 21px 228px 93px 36px;
+   }
+   
+   .thbutton{
+       padding-top: 72px;
+       align-self: center;
+       padding-bottom: 56px;
+   }
+   
+   .titlecellar{
+       font-size: 36px;
+       line-height: 46px;
+       letter-spacing: 0.05em;
+       color: #FFFFFF;
+       padding-top: 91px;
+       padding-bottom: 32px;
+   }
+   
+   /*стиль для кнопки*/
+   .butscon{
+       background: #5a98d0;
+       box-shadow: 5px 20px 50px rgba(16,112,177,0.2);
+       border-radius: 10px;
+       font-weight: 500;
+       font-size: 16px;
+       line-height: 26px;
+       text-align: center;
+       color: #ffffff;
+       text-transform: uppercase;
+       padding: 23px 203px;
+   }
+   .container{
+       max-width: 1140px;
+       margin: 0 auto;
+   }
+   
+   .top{
+       min-height: 768px;
+       background: linear-gradient(0deg, #EBF3FB 8.84%, rgba(152, 195, 232, 0) 31.12%);
+   }
+   
+   .top_botton{
+       font-size: 16px;
+       line-height: 26px;
+       text-align: center;
+       letter-spacing: 0.04em;
+       color: #FFFFFF;
+       background: #5A98D0;
+       box-shadow: 5px 10px 20px rgba(53, 110, 173, 0.2);
+       border-radius: 10px;
+       display: inline-block;
+       text-decoration: none;
+       padding: 15px 50px;
+       margin-top: 71px;
+   }
+   
+   .button_blue{
+       font-size: 16px;
+       line-height: 26px;
+       text-align: center;
+       letter-spacing: 0.04em;
+       text-decoration: none;
+       color: #FFFFFF;
+       background: #5A98D0;
+       padding: 15px 80px;
+   }
+   
+   .button_footer{
+       padding-top: 165px;
+   }
+   
+   .top_box{
+       display: flex;
+       flex-direction: column;
+       height: 100%;
+       background-image: url(image/topback.png);
+       background-repeat: no-repeat;
+       background-position: right 193px;
+       background-size: 44%;
+   }
+   
+   .top_info{
+       padding-top: 189px;
+       flex-grow: 1;
+   }
+   
+   .omenu{
+       display: flex;
+       justify-content: space-between;
+       padding-top: 42px;
+       padding-bottom: 42px;
+       list-style-type: none;
+   }
+   
+   .omenu_footer{
+       padding-top: 64px;
+       display: flex;
+       justify-content:space-between;
+       list-style-type: none;
+   }
+   
+   .prmenu{
+       padding-right: 114px;
+   }
+   
+   .menu_style{
+       font-size: 16px;
+       line-height: 26px;
+       letter-spacing: 0.05em;
+       color: #FFFFFF;
+   }
+   
+   .onewp{
+       padding-top: 32px;
+       width: 425px;
+   }
+   
+   .card{
+       width: 359px;
+       padding: 44px 32px;
+       box-sizing: border-box;
+       box-shadow: 5px 20px 50px rgba(16, 112, 177, 0.2);
+       border-radius: 10px;
+       background: #FFFFFF;
+       display: flex;
+       flex-direction: column;
+   }
+   
+   .card_img{
+       align-self: center;
+       margin-bottom: 52px;
+   }
+   
+   .shift{
+       margin-bottom: 30px;
+   }
+   
+   .shifth3{
+       margin-bottom: 32px;
+   }
+   
+   .togethercard{
+       display: flex;
+       justify-content: space-between;
+       padding-top: 64px;
+       margin-bottom: 64px;
+   }
+   
+   .fhppink{
+       width: 495px;
+   }
+   
+   .learn{
+       font-size: 14px;
+       line-height: 30px;
+       letter-spacing: 0.05em;
+       text-decoration: none;
+       color: #5A98D0;
+   }
+   
+   .infoflex{
+       display: flex;
+       justify-content: space-around;
+       padding-top: 66px;
+       padding-bottom: 96px;
+   }
+   
+   .map{
+       width: 1140px;
+       padding-bottom: 112px;
+   }
+   
+   .what-we-do{
+       padding-top: 64px;
+   }
+   
+   .fhpyellow{
+       display: flex;
+       justify-content: space-between;
+       flex-wrap: wrap;
+   }
+   
+   .sign{
+       opacity: 0.6;
+       padding-top: 64px;
+       padding-bottom: 64px;
+   }
+   
+   .wrapper{
+       /* Строка для определения высоты с vh*/
+       min-height: 100vh;
+       display: flex;
+       flex-direction: column;
+   }
+   
+   .tertop{
+       flex-grow: 1;
+   }
+   
+   .backlitera{
+       padding-top: 61px;
+       padding-bottom: 40px;
+       background-image: url(image/backgr_contact_title.png);
+       background-size: cover;
+   }
+   
+   .paragraphdescription{
+       font-size: 20px;
+       line-height: 30px;
+       text-align: center;
+       letter-spacing: 0.04em;
+       color: rgba(255, 255, 255, 0.6);
+   }
+   
+   .image_cont{
+       padding-top: 80px;
+       padding-bottom: 56px;
+   }
+   
+   .s_par_add{
+       font-weight: 300;
+       letter-spacing: 0.04em;
+       padding-bottom: 40px;
+   }
+   
+   .smenu{
+       font-weight: 300;
+       font-size: 16px;
+       line-height: 26px;
+       letter-spacing: 0.04em;
+       color: #1F3F68;
+       list-style: none;
+       padding-bottom: 40px;
+   }
+   
+   .menu_im_st::before{
+       content: url(image/im_telephone.svg);
+       margin-right: 19px;
+   }
+   
+   .menu_im_st:first-child{
+       padding-bottom: 16px;
+   }
+   
+   .emenu_im1{
+       letter-spacing: 0.05em;
+       text-decoration: none;
+       color: #1F3F68;
+   
+   }
+   
+   .pb_emenu{
+       padding-bottom: 16px;
+   }
+   
+   .emenu_im2{
+       letter-spacing: 0.05em;
+       text-decoration: none;
+       color: #1F3F68;
+   }
+   
+   .emenu_im1:first-child::before{
+       content: url(image/im_site.svg);
+       margin-right: 19px;
+   }
+   
+   .emenu_im2::before{
+       content: url(image/im_email.svg);
+       margin-right: 19px;
+   }
+   
+   .thhform{
+       background: #FFFFFF;
+       box-shadow: 5px 10px 50px rgba(16, 112, 177, 0.2);
+       border-radius: 10px;
+       padding: 56px;
+   }
+   
+   .pd_title{
+       padding-bottom: 48px;
+   }
+   
+   .thfullnameEmailMessage{
+       font-size: 16px;
+       line-height: 30px;
+       letter-spacing: 0.04em;
+       color: #1F3F68;
+       opacity: 0.8;
+       padding-bottom: 8px;
+   }
+   
+   @media (max-width: 1024px){
+       .container{
+           padding-left: 32px;
+           padding-right: 32px;
+       }
+       
+       .togethercard{
+           flex-direction: column;
+           align-items: center;
+       }
+   
+       .card{
+           margin-bottom: 32px;
+       }
+   
+       .paint{
+           padding-left: 124px;
+           padding-right: 124px;
+       }
+   
+       .button_blue{
+           padding: 3px 10px;
+       }
+   
+       .button_footer{
+           padding-top: 161px;
+       }
+   
+       .titlecellar{
+           padding-top: 47px;
+       }
+   
+       .omenu_footer{
+           flex-direction: column;
+       }
+   
+       .infoflex{
+           flex-direction: column;
+           align-items: center;
+       }
+   
+   }
+   
+   @media (max-width:667px){
+   
+       .top{
+           min-height: 376px;
+       }
+   
+       .titleone{
+           width: 100%;
+           font-size: 32px;
+           line-height: 37px;
+           margin-bottom: 12px;
+           text-align: center;
+       }
+   
+       .onewp{
+           width: 100%;
+           text-align: center;
+       }
+   
+       .omenu{
+           padding-top: 24px;
+       }
+   
+       .top_info{
+           padding-top: 36px;
+           display: flex;
+           flex-direction: column;
+           align-items: center;
+       }
+   
+       .top_box{
+           background-image: none;
+       }
+   
+       .top_botton{
+           font-size: 12px;
+           line-height: 26px;
+           padding: 0 8px;
+           margin-bottom: 41px;
+           box-sizing: border-box;
+       }
+   
+       .what-we-do{
+           padding-top: 48px;
+       }
+   
+       .togethercard{
+           padding-top: 32px;
+       }
+   
+       .titlethree{
+           font-size: 24px;
+           line-height: 28px;
+       }
+   
+       .card{
+           width: 100%;
+       }
+   
+       .paragraphunder{
+           width: 100%;
+           margin-bottom: 82px;
+       }
+   
+       .project_text{
+           top: 16px;
+           right: 36px;
+           font-size: 16px;
+           line-height: 19px;
+       }
+   
+       .project_parent{
+           display: flex;
+           flex-direction: column;
+           margin-top: 16px;
+           margin-bottom: 82px;
+       }
+   
+       .mrimage{
+           margin-right: 0px;
+           margin-bottom: 16px;
+       }
+   
+       .project_text2{
+           top:26px;
+           left: 16px;
+           font-size: 16px;
+           line-height: 19px;
+       }
+   
+       .titlecellar{
+           font-size: 24px;
+       line-height: 28px;
+           padding-top: 18px;
+       }
+   
+       .paint{
+           padding-left: 16px;
+           padding-right: 16px;
+       }
+   
+       .paragraphcolor{
+           padding-bottom: 40px;
+       }
+   
+       .button_footer{
+           padding-top: 0;
+           margin-bottom: 41px;
+       }
+   
+       .fhpyellow{
+           flex-direction: column;
+           box-sizing: border-box;
+           align-items: center;
+           text-align: center;
+           
+       }
+   
+       .fhppink{
+           width: auto;
+       }
+   }
